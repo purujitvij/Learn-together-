@@ -1,0 +1,77 @@
+.inpost{
+position: relative;
+background: white;
+border-radius: 5px;
+border: 1px solid #b2bec3;
+margin-left:1%;
+margin-right:35%;
+height: auto;
+margin-bottom:10px
+}
+a{
+  text-decoration: none;
+  color:#2d3436;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.inpost:hover{
+  border: 1px solid #636e72;
+  cursor: pointer;
+}
+.by{
+  position: absolute;
+  font-size: 13px;
+  left:59%;
+  top:4px;
+  color: #7f8c8d;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 120px;
+  word-wrap: normal;
+  height: 16px;
+  white-space: nowrap;
+}
+.date{
+  position: absolute;
+  font-size: 13px;
+  top: 4px;
+  left: 75%;
+  color: #7f8c8d;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 210px;
+  height: 16px;
+  white-space: nowrap;
+}
+.title{
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width:400px;
+  height:20px;
+  white-space: nowrap;
+}
+.desc{
+  color: #7f8c8d;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width:850px;
+  height: 18px;
+  white-space: nowrap;
+}
+.options a{
+font-size: 12px;
+margin-left:30px;
+color:#353b48;
+padding: 5px 5px;
+margin-bottom:10px;
+}
+.options{
+  margin-left: 70%;
+  margin-top: 20px;
+  margin-bottom:10px;
+}
+.options a:hover{
+  background: #dcdde1;
+}

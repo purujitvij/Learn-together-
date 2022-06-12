@@ -1,0 +1,101 @@
+body{
+  font-family: sans-serif;
+    background: #f5f6fa;
+    margin: 0px;
+    padding: 0px;
+}
+.bar {
+  background-color: #333;
+  overflow: hidden;
+  height: 80px;
+}
+
+.bar p {
+  position: absolute;
+  color:white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.nav{
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  float: right;
+  margin-top: 30px;
+  margin-right: 140px;
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+  padding: 15px 15px;
+}
+.nav a:hover{
+  background: green;
+}
+.dropdown img{
+  width: 30px;
+  margin-top: -57px;
+  margin-left: 90%;
+}
+.dropdown img:hover{
+  background: green;
+  border-radius: 20px;
+}
+.drop{
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.2);
+  top: 53px;
+  left: 90%;
+  position: absolute;
+  background: #ffffff;
+  display: none;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+.drop a{
+  font-family: sans-serif;
+  font-weight: 550;
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+}
+.drop a:hover{
+  background: #dfe4ea;
+}
+.dropdown:hover .drop{
+  display: block;
+}
+p{
+  font-weight: bold;
+}
+.card {
+  margin-bottom: 20%;
+  margin-top: 5%;
+  height: 40%;
+  display: inline-block;
+  margin-left: 10.5%;
+  text-align: center;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+button:hover{
+  opacity: 0.7;
+}
