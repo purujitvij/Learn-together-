@@ -1,0 +1,123 @@
+body{
+  background: #f5f6fa;
+  margin:0;
+  padding: 0;
+}
+.bar {
+  background-color: #333;
+  overflow: hidden;
+  height: 80px;
+}
+
+.bar p {
+  position: absolute;
+  color:white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.nav{
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  float: right;
+  margin-top: 30px;
+  margin-right: 140px;
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+  padding: 15px 15px;
+}
+.nav a:hover{
+  background: green;
+}
+.drop{
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.2);
+  top: 53px;
+  left: 90%;
+  position: absolute;
+  background: #ffffff;
+  display: none;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+.drop a{
+  font-family: sans-serif;
+  font-weight: 550;
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+}
+.drop a:hover{
+  background: #dfe4ea;
+}
+.dropdown:hover .drop{
+  display: block;
+}
+.dropdown img{
+  width: 30px;
+  margin-top: -57px;
+  margin-left: 90%;
+}
+img:hover{
+  background: green;
+  border-radius: 20px;
+}
+.noti{
+text-align: center;
+margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.noti p{
+  background: #353b48;
+  font-weight: bold;
+  font-size: 30px;
+  color:white;
+  padding: 15px 20px;
+  font-family: sans-serif;
+}
+.noti p:hover{
+  background: #333;
+  cursor: pointer;
+}
+.circle{
+  position: absolute;
+  left:22%;
+  top: 28%;
+  background: #333;
+  border-radius: 50%;
+  width:35px;
+  height:35px;
+}
+.circle2{
+  position: absolute;
+  left:22%;
+  top: 45%;
+  background: #333;
+  border-radius: 50%;
+  width:35px;
+  height:35px;
+}
+.circle3{
+  position: absolute;
+  left:22%;
+  top: 62%;
+  background: #333;
+  border-radius: 50%;
+  width:35px;
+  height:35px;
+}
+.circle4{
+  position: absolute;
+  left:22%;
+  top: 80%;
+  background: #333;
+  border-radius: 50%;
+  width:35px;
+  height:35px;
+}
