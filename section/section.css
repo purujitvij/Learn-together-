@@ -1,0 +1,65 @@
+body{
+  margin:0;
+  padding: 0;
+}
+.student, .teacher, .office, .director{
+  background: #333;
+  opacity: 0.9;
+}
+img{
+  margin-left: 20px;
+  width: 15%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 100%;
+  transform: scale(0.8);
+}
+.one{
+  color: white;
+  position: absolute;
+  font-family: sans-serif;
+  left: 600px;
+  top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.two{
+  color: white;
+  position: absolute;
+  font-family: sans-serif;
+  left: 600px;
+  top: 240px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.three{
+  color: white;
+  position: absolute;
+  font-family: sans-serif;
+  left: 600px;
+  top: 455px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.four{
+  color: white;
+  position: absolute;
+  font-family: sans-serif;
+  left: 600px;
+  top: 675px;
+  font-size: 50px;
+  font-weight: bold;
+}
+hr{
+  height:15px;
+  background: #f5f6fa;
+  border: none;
+  margin:0;
+  border: 1px solid #f5f6fa;
+}
+.student:hover,.teacher:hover,.office:hover,.director:hover{
+  opacity: 1;
+}
+.student:hover,.teacher:hover,.office:hover,.director:hover p{
+  text-shadow: 10px 5px 20px rgba(0,0,0,0.5);
+}
