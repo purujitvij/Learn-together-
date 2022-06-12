@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" href="registration2.css">
+
+<body onload="loadImage()">
+<script>
+ function loadImage() {
+  alert("provided information must be wrong please contact with office staff or may be you are not a student of uiit");
+}
+  function validateform(){  
+var name=document.myform.stu_name.value;  
+var roll=document.myform.stu_rollno.value;
+var phno=document.myform.stu_phoneno.value;  
+  
+  
+if (name==null || name=="" ||roll==null || roll=="" || phno==null || phno==""){
+  alert("all field must be filled");
+}
+
+if (isNaN(roll)){
+  alert("roll no must be a number");
+}
+
+if (isNaN(phno)){
+  alert(" phonenumber must be a number");
+}
+
+}
+</script>
+
+<div class="aform">
+<h1> REGISTRATION FORM</h1>
+<form name="myform" onchange="validateform()" method="get" action="registration22.php">
+    
+	<div class="abc">*Name must be same as provided to university</div>
+    <p>Name</p>
+	<input type="text" name="stu_name">
+
+    <div class="abc">*Class roll no provided by university</div>
+    <p>Roll Number</p>
+	<input type="text" name="stu_rollno">
+  
+     <div class="abc">*only 10 digits number (0,+91 not allowed)</div>
+    <p>Phone</p>
+    <input type="text" name="stu_phoneno">
+
+    <input type="submit" value="register">
+
+
+</form>
+</div>
+</body>
+</head>
+</html>

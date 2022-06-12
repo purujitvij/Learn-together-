@@ -1,0 +1,58 @@
+<html>
+<head>
+<link rel="stylesheet" href="registrationpage22.css">
+
+
+<body>
+<script>
+
+  function validateform(){
+var stu_name=document.myform.name.value;
+var stu_pass=document.myform.pass.value;
+var stu_cpass=document.myform.cpass.value;
+if (stu_name==null || stu_name=="" || stu_pass==null || stu_pass=="" || stu_cpass==null || stu_cpass==""){
+  alert("All fields should be filled");
+
+}
+
+if (isNaN(stu_name)){
+   alert("username is your rollno");
+}
+
+if (stu_pass.length<=8){
+  alert("password should be more than 8 characters");
+}
+
+if (stu_pass!=stu_cpass){
+  alert("your password and confirmation password do not match");
+}
+
+
+
+}
+</script>
+
+<div class="aform">
+<h1>CREATE PASSWORD</h1>
+<form name="myform" onchange="validateform()" onsubmit="validateform()" method="post" action="registrationpage222.php">
+
+	<div class="abc">*rollno must be provided by university</div>
+    <p>UserName</p>
+	<input type="text" name="name">
+
+    <div class="abc">*Password should be more than 8 characters</div>
+    <p>Password</p>
+	<input type="password" name="pass">
+
+     <div class="abc">*Confirm your password</div>
+    <p>Confirm Password</p>
+    <input type="password" name="cpass">
+
+    <input type="submit" value="Register">
+
+
+</form>
+</div>
+</body>
+</head>
+</html>
